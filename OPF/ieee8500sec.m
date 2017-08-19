@@ -21,7 +21,7 @@ alphaM_HVMV_SUB_LSB = alpha_HVMV_SUB_LSB * alpha_HVMV_SUB_LSB';
 
 % voltage regulator: 190_8593
 tapA190_8593 = 1.0 + 0.00625 * 10;
-tapB190_8593 = 1.0 + 0.00625 * 6;
+tapB190_8593 = 1.0 + 0.00625 * 5;
 tapC190_8593 = 1.0 + 0.00625 * 2;
 alpha190_8593 = [tapA190_8593; tapB190_8593; tapC190_8593];
 alphaM190_8593 = alpha190_8593 * alpha190_8593';
@@ -29,13 +29,13 @@ alphaM190_8593 = alpha190_8593 * alpha190_8593';
 % voltage regulator: 190_8581
 tapA190_8581 = 1.0 + 0.00625 * 16;
 tapB190_8581 = 1.0 + 0.00625 * 10;
-tapC190_8581 = 1.0 + 0.00625 * 1;
+tapC190_8581 = 1.0 + 0.00625 * 0;
 alpha190_8581 = [tapA190_8581; tapB190_8581; tapC190_8581];
 alphaM190_8581 = alpha190_8581 * alpha190_8581';
 
 % voltage regulator: 190_7361
 tapA190_7361 = 1.0 + 0.00625 * 11;
-tapB190_7361 = 1.0 + 0.00625 * 12;
+tapB190_7361 = 1.0 + 0.00625 * 11;
 tapC190_7361 = 1.0 + 0.00625 * 5;
 alpha190_7361 = [tapA190_7361; tapB190_7361; tapC190_7361];
 alphaM190_7361 = alpha190_7361 * alpha190_7361';
